@@ -2,7 +2,7 @@ const noBtn = document.getElementById('noBtn');
 const yesBtn = document.getElementById('yesBtn');
 let yesButtonScale = 1;
 
-noBtn.addEventListener('mouseover', () => {
+noBtn.addEventListener('click', () => {
     const x = Math.floor(Math.random() * (window.innerWidth - 150));
     const y = Math.floor(Math.random() * (window.innerHeight - 150));
     noBtn.style.position = 'absolute';
